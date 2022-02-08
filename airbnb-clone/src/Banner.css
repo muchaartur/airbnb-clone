@@ -1,0 +1,44 @@
+.banner {
+    background: url("/img/asset4.jpg") center center;
+    height: 55vh;
+    position: relative;
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 21vh;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: blueviolet !important;
+}
+
+.banner__info > h5 {
+    margin-top: 11px;
+}
+
+.banner__info > button {
+    background-color: blueviolet;
+    color: white;
+    text-transform:  inherit;
+    margin-top: 21px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: blueviolet;
+}
